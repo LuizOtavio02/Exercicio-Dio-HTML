@@ -1,0 +1,82 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.wraper {
+  border-radius: 0%;
+  border: 0px;
+  padding: 0%;
+}
+ul {
+  border: 0px;
+  padding: 0px;
+}
+.menu {
+  background-color: #c0c0c0;
+  width: 200px; /* Largura da barra lateral */
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical se o conteúdo exceder a altura da barra lateral */
+    height: 100vh; /* Define a altura da barra lateral para 100% da altura da janela*/
+  border: 0px;
+  padding: 0px;
+  border-radius: 0px;
+  display: flex;
+  justify-content: center; /* Alinha os itens horizontalmente */
+  align-items: center; /* Alinha os itens verticalmente */
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin-bottom: 10px; /* Espaçamento entre os itens; ajuste conforme necessário */
+  font-size: 14px;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu a:hover{
+    background-color: white;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; /* Altura desejada para o cabeçalho */
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.conteudo{
+    position: fixed;
+    top: 120px;
+    left: 200px;
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+
+
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #e1e1e1;
+    color: black;
+    padding: 10px;
+
+}
