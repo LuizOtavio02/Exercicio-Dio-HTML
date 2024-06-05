@@ -56,6 +56,11 @@ header h1{
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
 }
+.voltainicio{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+}
 .sidebar {
     border-right: solid 1px #cdcdcd;
 }
